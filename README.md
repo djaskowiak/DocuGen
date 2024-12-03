@@ -75,58 +75,36 @@ When you click on “Run” the automation gets executed. By default, the automa
 
 This list showcases what DocuGen covers:
 
-<![if !supportLists]>- <![endif]>General app information:
+ - General app information:
+	 - app name, description, Id, Resource type, type of usage, owner, published, published time, space Id, has section access, is encrypted, create date, modified date, last reload time, app memory footprint, app reload peak RAM
+ - Data model:
+	 - For every table it generates:
+		 - title, number of rows, number of fields, number of key fields, is loose, comment, table size,
+		 - table containing field name, number of distinct values, number of non-null values, tags, ishidden, iskey, connected tables
+ - Measures:
+	 - For every measure it generates:
+		 - title, label, description, Id, definition, expression, grouping, custom formatted, format type, format, color, tags
+ - Dimensions:
+	 - For every dimension it generates:
+		 - title, label, description, Id, definition, grouping, tags
+ - Variables:
+	- For every variable it generates:
+		- title, Id, definition, comment, tags
+- Sheets & Visualizations:
+	- list of sheets
+		- for every sheet it generates title, type, Id, description, grid resolution, sheet mode, list of used objects
+		- link to sheet
+	- list of objects on the sheet
+		- for every object on a sheet, it generates screenshot, type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
+	- if the object is a container (layout container, tabbed container or normal container) it creates a list of all child objects containing the following information:
+		- type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
+- Load Script:
+	- For every script section it generates:
+		- title, script
 
-<![if !supportLists]>o <![endif]>app name, description, Id, Resource type, type of usage, owner, published, published time, space Id, has section access, is encrypted, create date, modified date, last reload time, app memory footprint, app reload peak RAM
+#### Closing:
 
-<![if !supportLists]>- <![endif]>Data model:
+This is it for now. I hope this community project can help you to also automize and minimize your documentation efforts. On the bottom of that article, you will find the necessary files. The current version of the files will be hosted on GitHub: [LINK](https://github.com/djaskowiak/DocuGen)
+Link to Qlik Community article: LINK
 
-<![if !supportLists]>o <![endif]>For every table it generates:
-
-<![if !supportLists]>§ <![endif]>title, number of rows, number of fields, number of key fields, is loose, comment, table size,
-
-<![if !supportLists]>§ <![endif]>table containing field name, number of distinct values, number of non-null values, tags, ishidden, iskey, connected tables
-
-<![if !supportLists]>- <![endif]>Measures:
-
-<![if !supportLists]>o <![endif]>For every measure it generates:
-
-<![if !supportLists]>§ <![endif]>title, label, description, Id, definition, expression, grouping, custom formatted, format type, format, color, tags
-
-<![if !supportLists]>- <![endif]>Dimensions:
-
-<![if !supportLists]>o <![endif]>For every dimension it generates:
-
-<![if !supportLists]>§ <![endif]>title, label, description, Id, definition, grouping, tags
-
-<![if !supportLists]>- <![endif]>Variables:
-
-<![if !supportLists]>o <![endif]>For every variable it generates:
-
-<![if !supportLists]>§ <![endif]>title, Id, definition, comment, tags
-
-<![if !supportLists]>- <![endif]>Sheets & Visualizations:
-
-<![if !supportLists]>o <![endif]>list of sheets
-
-<![if !supportLists]>§ <![endif]>for every sheet it generates title, type, Id, description, grid resolution, sheet mode, list of used objects
-
-<![if !supportLists]>§ <![endif]>link to sheet
-
-<![if !supportLists]>o <![endif]>list of objects on the sheet
-
-<![if !supportLists]>§ <![endif]>for every object on a sheet, it generates screenshot, type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
-
-<![if !supportLists]>o <![endif]>if the object is a container (layout container, tabbed container or normal container) it creates a list of all child objects containing the following information: type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
-
-<![if !supportLists]>- <![endif]>Load Script:
-
-<![if !supportLists]>o <![endif]>For every script section it generates:
-
-<![if !supportLists]>§ <![endif]>title, script
-
-Closing:
-
-This is it for now. I hope this community project can help you to also automize and minimize your documentation efforts. On the bottom of that article, you will find the necessary files. The current version of the files will be hosted on GitHub: LINK
-
-Thank you very much to Emil Koslowski (Product Manager Qlik) for helping with various Qlik Application Automation questions and to Dennis Jaskowiak (PreSales Qlik) for mentoring and supporting through out the creation of this idea.
+This project has been created by [Prodromos Chatziagorakis](https://www.linkedin.com/in/prodromos-chatziagorakis-77111461/) & [Dennis Jaskowiak](https://www.linkedin.com/in/dennis-jaskowiak-7b01a31a7/)
