@@ -1,7 +1,3 @@
-
-
-<![endif]-->
-
 # DocuGen
 
 Automatic generation of Qlik Sense app documentation thanks to Qlik Application Automation
@@ -32,63 +28,51 @@ This approach helps us to create standard documentation much faster daily (previ
 
 The archive consists of only 4 files:
 
-<![if !supportLists]>· <![endif]>DocuGen v_(x)_.json _(x = version)_
-
-<![if !supportLists]>· <![endif]>code/custom_code_block.py
-
-<![if !supportLists]>· <![endif]>code/used_css.css
-
-<![if !supportLists]>· <![endif]>code/used_js.js
+ - DocuGen v_(x)_.json _(x = version)_
+ - code/custom_code_block.py
+ - code/used_css.css
+ - code/used_js.js
 
 To import the QAA you need the **DocuGen v(x).json** file. This file contains the exported QAA workspace.
 
 The "code" folder contains the code segments used if you want to customise the code for your needs.
 
-<![if !supportLists]>· <![endif]>**custom_code_block.py:**
-
+ - **custom_code_block.py**:
 This file contains the code that we use in the "Custom Code" blog in the automation.
 
-<![if !supportLists]>· <![endif]>**used_css.css**
-
+ - **used_css.css**:
 This file contains the CSS definition that we use in the "Variable - vCSS" blog in the automation and imports the style description for our HTML file. The definition is not minified in this file.
 
-<![if !supportLists]>· <![endif]>**used_js.js**
-
+ - **used_js.js**:
 This file contains the Java scripts that we use in our Python script (custom_code_block.py at the very end). The JavaScript is implemented in the Python code (last <script></script> section). It is important that ‘{’ and ‘}’ are replaced with ‘{{’ and ‘}}’ so that they are not evaluated in Python.
 
-Installation**:**
+#### Installation:
 
-<![if !supportLists]>1.) <![endif]>Create a new blank Qlik Application Automation
-
-<![if !supportLists]>2.) <![endif]>Upload workspace (right click on canvas) à **DocuGen v_(x)_.json**
-
-<![if !supportLists]>3.) <![endif]>Create a connection for SharePoint
-
-<![if !supportLists]>a. <![endif]>scroll to the bottom and click on the “**Create File on Microsoft SharePoint**” Block that has a red border
-
-<![if !supportLists]>b. <![endif]>click on the Connection tab and create a connection to your Microsoft SharePoint
-
-<![if !supportLists]>c. <![endif]>After you receive the information “Connection is linked” you can use it by clicking on your created connection. The connection tab should now change its colour from red to black.
-
-<![if !supportLists]>4.) <![endif]>(_optional_) If you want to switch the **number format** from ‘comma’ to ‘point’ as decimal separator you can switch the value of the block named “Variable – vNumber Format” from ‘de’ to ‘us’. It’s the second block of the automation.
-
-<![if !supportLists]>5.) <![endif]>Now you can run the automation to generate your first documentation
+ 1. Create a new blank Qlik Application Automation
+ 2. Upload workspace (right click on canvas) à **DocuGen v_(x)_.json**
+ 3. Create a connection for SharePoint
+	 a.  scroll to the bottom and click on the “**Create File on Microsoft SharePoint**” Block that has a red border
+	 b.  click on the Connection tab and create a connection to your Microsoft SharePoint
+	 c.  After you receive the information “Connection is linked” you can use it by clicking on your created connection. The connection tab should now change its colour from red to black.
+ 4. (_optional_) If you want to switch the **number format** from ‘comma’ to ‘point’ as decimal separator you can switch the value of the block named “Variable – vNumber Format” from ‘de’ to ‘us’. It’s the second block of the automation.
+ 5. Now you can run the automation to generate your first documentation
 
 #### Running the automation:
 
 When you click on “Run” the automation gets executed. By default, the automation has configured “Run Mode: Manual”. It requires a few inputs for processing:
 
-<![if !supportLists]>- <![endif]>Space – where the app is located (_Personal doesn’t work_)
+ - Space – where the app is located (_Personal doesn’t work_)
+ - App name
+ - List of Sections that need to be documented (e.g. Data Model, Measures, Dimensions etc.)
+ - Screenshots (yes/no)
+ - List for type of sheets (e.g. Public, Community, Private)
 
-<![if !supportLists]>- <![endif]>App name
 
-<![if !supportLists]>- <![endif]>List of Sections that need to be documented (e.g. Data Model, Measures, Dimensions etc.)
+<span style="color:red">
+<i>If you want to run the automation triggered (e.g. by REST call) it needs to me modified. We will post an example later to showcase this option.</i>
+</span>
 
-<![if !supportLists]>- <![endif]>Screenshots (yes/no)
 
-<![if !supportLists]>- <![endif]>List for type of sheets (e.g. Public, Community, Private)
-
-_If you want to run the automation triggered (e.g. by REST call) it needs to me modified. We will post an example later to showcase this option._
 
   
 
