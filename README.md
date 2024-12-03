@@ -40,23 +40,23 @@ To import the QAA you need the **DocuGen v(x).json** file. This file contains th
 The "code" folder contains the code segments used if you want to customise the code for your needs.
 
  - **custom_code_block.py**:
-This file contains the code that we use in the "Custom Code" blog in the automation.
+This file contains the code that we use in the `"Custom Code"` blog in the automation.
 
  - **used_css.css**:
-This file contains the CSS definition that we use in the "Variable - vCSS" blog in the automation and imports the style description for our HTML file. The definition is not minified in this file.
+This file contains the CSS definition that we use in the `"Variable - vCSS"` blog in the automation and imports the style description for our HTML file. The definition is not minified in this file.
 
  - **used_js.js**:
-This file contains the Java scripts that we use in our Python script (custom_code_block.py at the very end). The JavaScript is implemented in the Python code (last <script></script> section). It is important that ‘{’ and ‘}’ are replaced with ‘{{’ and ‘}}’ so that they are not evaluated in Python.
+This file contains the Java scripts that we use in our Python script (custom_code_block.py at the very end). The JavaScript is implemented in the Python code (last `<script></script>` section). It is important that `'{'` and `'}'` are replaced with `'{{'` and `'}}'` so that they are not evaluated in Python.
 
 #### Installation:
 
  1. Create a new blank Qlik Application Automation
- 2. Upload workspace (right click on canvas) à **DocuGen v_(x)_.json**
+ 2. Upload workspace *(right click on canvas)* à **DocuGen v_(x)_.json**
  3. Create a connection for SharePoint
 	 a.  scroll to the bottom and click on the “**Create File on Microsoft SharePoint**” Block that has a red border
 	 b.  click on the Connection tab and create a connection to your Microsoft SharePoint
-	 c.  After you receive the information “Connection is linked” you can use it by clicking on your created connection. The connection tab should now change its colour from red to black.
- 4. (_optional_) If you want to switch the **number format** from ‘comma’ to ‘point’ as decimal separator you can switch the value of the block named “Variable – vNumber Format” from ‘de’ to ‘us’. It’s the second block of the automation.
+	 c.  After you receive the information `“Connection is linked”` you can use it by clicking on your created connection. The connection tab should now change its colour from red to black.
+ 4. (_optional_) If you want to switch the **number format** from ‘comma’ to ‘point’ as decimal separator you can switch the value of the block named “Variable – vNumber Format” from `‘de’` to `‘us’`. It’s the second block of the automation.
  5. Now you can run the automation to generate your first documentation
 
 #### Running the automation:
@@ -112,7 +112,8 @@ This list showcases what DocuGen covers:
 
 #### Closing:
 
-This is it for now. I hope this community project can help you to also automize and minimize your documentation efforts. On the bottom of that article, you will find the necessary files. The current version of the files will be hosted on GitHub: [LINK](https://github.com/djaskowiak/DocuGen)
+This is it for now. I hope this community project can help you to also automize and minimize your documentation efforts. On the bottom of that article, you will find the necessary files. 
+Link to  GitHub : [LINK](https://github.com/djaskowiak/DocuGen)
 Link to Qlik Community article: LINK
 
 This project has been created by [Prodromos Chatziagorakis](https://www.linkedin.com/in/prodromos-chatziagorakis-77111461/) & [Dennis Jaskowiak](https://www.linkedin.com/in/dennis-jaskowiak-7b01a31a7/)
