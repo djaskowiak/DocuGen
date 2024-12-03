@@ -1,4 +1,5 @@
 
+
 <![endif]-->
 
 # DocuGen
@@ -19,11 +20,13 @@ It all started with this simple idea and a first prototype, which I built in QAA
 
 This approach helps us to create standard documentation much faster daily (previously approx. 3 - 5 days; now ~ 30 minutes). In my day-to-day job as a BI Specialist, I am now able to transfer analysis prototypes to production much faster for my customers and deliver added value for the business departments even faster.  I think many other people in similar roles like me face the same challenge. This is the reason why I created a community project out of this idea together with Dennis Jaskowiak (Qlik PreSales). We started to extend the documentation with more functionalities, generalized the design of the documentation and reworked the code. In this article, we would like to share the project and its content with the Qlik Community.
 
-<![if !vml]>![A screenshot of a computer
+![General Information](screenshots/pic2.png)
 
-Description automatically generated](file:///C:/Users/DJA/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)<![endif]>
+![Visualization](screenshots/pic3.png)
 
-<![if !vml]>![](file:///C:/Users/DJA/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)<![endif]>  <![if !vml]>![](file:///C:/Users/DJA/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)<![endif]>  <![if !vml]>![](file:///C:/Users/DJA/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)<![endif]>
+![Data Model](screenshots/pic4.png)
+
+![Load Script](screenshots/pic5.png)
 
 #### Content of the package:
 
