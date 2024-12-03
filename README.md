@@ -2,6 +2,8 @@
 
 Automatic generation of Qlik Sense app documentation thanks to Qlik Application Automation
 
+##### [Download latest version](https://github.com/djaskowiak/DocuGen/releases/tag/v1.0)
+
 #### Challenge:
 
 Many of us are probably familiar with the fact that after a Qlik Sense app has been developed, documentation is required to transfer the analysis to production. This process is time-consuming and requires several days of work to finally obtain a "piece of paper". The documentation can be mandatory for both regulatory and operational reasons. Following the principle “Let's work smarter”, I would like to automate exactly this process with DocuGen using Qlik Application Automation (QAA). This can save valuable time and give us the ability to transfer use cases to production even faster.
@@ -29,9 +31,9 @@ This approach helps us to create standard documentation much faster daily (previ
 The archive consists of only 4 files:
 
  - DocuGen v_(x)_.json _(x = version)_
- - code/custom_code_block.py
- - code/used_css.css
- - code/used_js.js
+ - [code/custom_code_block.py](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/custom_code_block.py)
+ - [code/used_css.css](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/used_css.css)
+ - [code/used_js.js](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/used_js.js)
 
 To import the QAA you need the **DocuGen v(x).json** file. This file contains the exported QAA workspace.
 
