@@ -113,6 +113,7 @@ This list showcases what DocuGen covers:
 #### Closing:
 
 This is it for now. I hope this community project can help you to also automize and minimize your documentation efforts. On the bottom of that article, you will find the necessary files. 
+
 Link to  GitHub : [LINK](https://github.com/djaskowiak/DocuGen)
 Link to Qlik Community article: LINK
 
