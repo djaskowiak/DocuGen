@@ -67,13 +67,8 @@ When you click on “Run” the automation gets executed. By default, the automa
  - Screenshots (yes/no)
  - List for type of sheets (e.g. Public, Community, Private)
 
-
-<span style="color:red">
-<i>If you want to run the automation triggered (e.g. by REST call) it needs to me modified. We will post an example later to showcase this option.</i>
-</span>
-
-
-
+> [!NOTE]
+> If you want to run the automation triggered (e.g. by REST call) it needs to me modified. We will post an example later to showcase this option.
   
 
 #### Features:
