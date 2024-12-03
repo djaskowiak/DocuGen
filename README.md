@@ -13,7 +13,7 @@ Many of us are probably familiar with the fact that after a Qlik Sense app has b
 
 It all started with this simple idea and a first prototype, which I built in QAA. Various Qlik Cloud Services blocks are used to extract the relevant metadata from the individual app (e.g. table definitions, sheets and visualizations, variables, measures and dimensions, etc.). This data is then stored in variables and once all the information has been collected it gets passed into a “Custom Code” block. This block uses Python 3.11 and creates a dynamic HTML file without external references.  This means that the created HTML file remains transportable and does not require any external resources, as it contains all the necessary functions itself. Finally, the created HTML file is saved to MS Sharepoint.
 
-![enter image description here](https://github.com/djaskowiak/DocuGen/blob/c944992330bdf227d237874d97d24b3335b20d6b/screenshots/pic1.png)
+![Input Parameters](/screenshots/pic1.png)
 
 ##### Outcome:
 
