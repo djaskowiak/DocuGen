@@ -2,7 +2,7 @@
 
 Automatic generation of Qlik Sense app documentation thanks to Qlik Application Automation
 
-##### [Download latest version](https://github.com/djaskowiak/DocuGen/releases/tag/v1.0)
+##### [Download latest version](https://github.com/djaskowiak/DocuGen/releases)
 
 #### Challenge:
 
@@ -30,7 +30,7 @@ This approach helps us to create standard documentation much faster daily (previ
 
 The archive consists of only 4 files:
 
- - DocuGen v_(x)_.json _(x = version)_
+ - [DocuGen v_(x)_.json _(x = version)_](https://github.com/djaskowiak/DocuGen/releases)
  - [code/custom_code_block.py](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/custom_code_block.py)
  - [code/used_css.css](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/used_css.css)
  - [code/used_js.js](https://github.com/djaskowiak/DocuGen/blob/94227bf6e0df9077b56a13e1025b3794879e2388/code/used_js.js)
@@ -77,22 +77,27 @@ When you click on “Run” the automation gets executed. By default, the automa
 
 This list showcases what DocuGen covers:
 
- - General app information:
+ - **General app information**:
 	 - app name, description, Id, Resource type, type of usage, owner, published, published time, space Id, has section access, is encrypted, create date, modified date, last reload time, app memory footprint, app reload peak RAM
- - Data model:
+
+ - **Data model**:
 	 - For every table it generates:
 		 - title, number of rows, number of fields, number of key fields, is loose, comment, table size,
 		 - table containing field name, number of distinct values, number of non-null values, tags, ishidden, iskey, connected tables
- - Measures:
+
+ - **Measures**:
 	 - For every measure it generates:
 		 - title, label, description, Id, definition, expression, grouping, custom formatted, format type, format, color, tags
- - Dimensions:
+
+ - **Dimensions**:
 	 - For every dimension it generates:
 		 - title, label, description, Id, definition, grouping, tags
- - Variables:
+
+ - **Variables**:
 	- For every variable it generates:
 		- title, Id, definition, comment, tags
-- Sheets & Visualizations:
+		
+- **Sheets & Visualizations**:
 	- list of sheets
 		- for every sheet it generates title, type, Id, description, grid resolution, sheet mode, list of used objects
 		- link to sheet
@@ -100,7 +105,8 @@ This list showcases what DocuGen covers:
 		- for every object on a sheet, it generates screenshot, type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
 	- if the object is a container (layout container, tabbed container or normal container) it creates a list of all child objects containing the following information:
 		- type, Id, title, subtitle, footnote, color mode, color definition, dimensions, measures, link to object
-- Load Script:
+		
+- **Load Script**:
 	- For every script section it generates:
 		- title, script
 
