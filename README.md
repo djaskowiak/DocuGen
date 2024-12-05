@@ -116,6 +116,6 @@ This is it for now. I hope this community project can help you to also automize 
 
 Link to  GitHub : [LINK](https://github.com/djaskowiak/DocuGen)
 
-Link to Qlik Community article: [LINK]([https://github.com/djaskowiak/DocuGen](https://community.qlik.com/t5/Qlik-Application-Automation/DocuGen-Automatic-generation-of-Qlik-Sense-app-documentation/td-p/2496256)
+Link to Qlik Community article: [LINK](https://community.qlik.com/t5/Qlik-Application-Automation/DocuGen-Automatic-generation-of-Qlik-Sense-app-documentation/td-p/2496256)
 
 This project has been created by [Prodromos Chatziagorakis](https://www.linkedin.com/in/prodromos-chatziagorakis-77111461/) & [Dennis Jaskowiak](https://www.linkedin.com/in/dennis-jaskowiak-7b01a31a7/)
