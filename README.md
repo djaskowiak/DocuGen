@@ -2,6 +2,8 @@
 
 Automatic generation of Qlik Sense app documentation thanks to Qlik Application Automation
 
+[![YouTube Video](screenshots/ytplayer.png)](https://youtu.be/aHbD4CVb1no)
+
 ##### [Download latest version](https://github.com/djaskowiak/DocuGen/releases)
 
 #### Challenge:
