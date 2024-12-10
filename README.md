@@ -1,3 +1,4 @@
+
 # DocuGen
 
 Automatic generation of Qlik Sense app documentation thanks to Qlik Application Automation
@@ -58,6 +59,7 @@ This file contains the Java scripts that we use in our Python script (custom_cod
 	 a.  scroll to the bottom and click on the “**Create File on Microsoft SharePoint**” Block that has a red border
 	 b.  click on the Connection tab and create a connection to your Microsoft SharePoint
 	 c.  After you receive the information `“Connection is linked”` you can use it by clicking on your created connection. The connection tab should now change its colour from red to black.
+	 d. click on `"Inputs"` and select `Drive Id` or `Site Id` to chose your destination in SharePoint. You can also exchange the last 3 blocks and use a different storage location for your generated reports.
  4. (_optional_) If you want to switch the **number format** from ‘comma’ to ‘point’ as decimal separator you can switch the value of the block named `“Variable – vNumber Format”` from `'de'` to `'us'`. It’s the second block of the automation.
  5. Now you can run the automation to generate your first documentation
 
